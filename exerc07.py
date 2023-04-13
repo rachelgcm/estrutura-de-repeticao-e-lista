@@ -1,5 +1,10 @@
-listaNumeros = [1,2,3,4,5]
-print ('1,2,3,4,5')
-for i in range(5):
-    listaNumeros. append(input('Numero '+ str(i+1) + ':\n'))
-print (listaNumeros) 
+numeros = [1,2,3,4,5]
+soma = 0 
+multi = numeros [0]
+print("numeros:", numeros)
+for i in numeros:
+    soma = soma + numeros [i-1]
+    multi = multi * numeros [i-1]
+    print ("soma:", soma)
+    print ("multiplicação:", multi)
+    
